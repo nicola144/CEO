@@ -12,5 +12,7 @@ There is a lot of functionality inherited from DCBO (https://github.com/neildhir
 
 The directory `paper_results/` contains data for the results for the experiments in the paper, including random seeds corresponding to the initial interventional points used.
 
+Note: the practical implementation of the acquisition function, CES, is inefficient and slow. It could at least be parallelised over acquisition points. 
+
 Finally, this is research code. We are not professional software developers and are thus not equipped to make a (more) robust implementation.
 Email the first author for questions on the code. 
